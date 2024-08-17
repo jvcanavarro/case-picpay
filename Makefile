@@ -17,7 +17,7 @@ lock:
 
 .PHONY: serve
 serve:
-	poetry run uvicorn voiceover.app:app --reload
+	poetry run uvicorn souce.main:app --reload
 
 .PHONY: black
 black-check:
